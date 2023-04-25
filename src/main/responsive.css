@@ -1,0 +1,125 @@
+@media (max-width: 1115px) {
+  .people img {
+    width: 250px;
+    margin-right: 0;
+  }
+  .page {
+    flex-direction: column;
+  }
+  .logo {
+    position: relative;
+    margin-right: 70px;
+    margin-bottom: -20px;
+  }
+
+  .circle {
+    clip-path: ellipse(50% 50% at 50% 0%);
+    width: 100%;
+    left: 0;
+    position: absolute;
+  }
+
+  .components {
+    background: none;
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .components h1 {
+    max-width: 400px;
+    font-size: 23px;
+  }
+  .components p {
+    font-size: 15px;
+  }
+
+  .btn {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+  }
+
+  #blue {
+    width: 95%;
+  }
+
+  #white {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .circle {
+    clip-path: circle(49.9% at 50% 5%);
+    position: absolute;
+  }
+}
+
+@media (max-width: 381px) {
+  .circle {
+    clip-path: circle(49.9% at 50% 5%);
+    position: absolute;
+  }
+  .btntwo button {
+    width: 150px;
+  }
+
+  #white {
+    width: 90%;
+  }
+}
+
+@media (max-width: 340px) {
+  .btntwo button {
+    width: 140px;
+  }
+  .components h1 {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 321px) {
+  .btntwo button {
+    width: 135px;
+  }
+}
+
+@media (max-width: 311px) {
+  .btntwo button {
+    width: 130px;
+  }
+}
+
+@media (max-width: 300px) {
+  .btntwo button {
+    width: 125px;
+  }
+}
+
+@media (max-width: 291px) {
+  .btntwo button {
+    width: 120px;
+  }
+}
+
+@media (max-width: 281px) {
+  .btntwo button {
+    width: 115px;
+  }
+}
+
+@media (max-width: 271px) {
+  .btntwo button {
+    width: 110px;
+  }
+}
+
+@media (max-width: 261px) {
+  .btntwo button {
+    width: 100px;
+  }
+  .components h1 {
+    font-size: 22px;
+  }
+}
